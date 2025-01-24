@@ -52,5 +52,5 @@ def main():
         time.sleep(CHECK_INTERVAL)
 
 if __name__ == "__main__":
-    main()
+    app.run(debug=True, host='0.0.0.0', port=10000, use_reloader=False)
 
